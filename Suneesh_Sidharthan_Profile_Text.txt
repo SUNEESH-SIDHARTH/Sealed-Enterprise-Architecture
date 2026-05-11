@@ -1,0 +1,452 @@
+SUNEESH SIDHARTHAN
+Enterprise AI Systems Architect
+Bengaluru, India · suneesh.sidharthan80@gmail.com
+linkedin.com/in/suneesh-sidharthan-773b85147 · github.com/suneesh-sidharth · mivaedu.com
+
+================================================================================
+HERO
+================================================================================
+
+Architecting enterprise-grade AI systems with strong governance, retrieval
+grounding, permission-aware security, and production reliability across the
+complete AI product lifecycle.
+
+15+ years experience · 5 published works · 58-page SEA whitepaper · Available globally
+
+================================================================================
+ABOUT
+================================================================================
+
+Enterprise AI Systems Architect and Product Engineering Leader with 15+ years
+designing and delivering scalable platforms across banking, telecom, analytics,
+and AI-native startups.
+
+Most AI freelancers wire APIs together and call it integration. I architect
+governance-first systems — where drift is controlled, permissions are enforced
+at the database layer, and models can be swapped without re-engineering. The
+difference shows at production scale, not in demos.
+
+Author of Sealed Enterprise Architecture (SEA 1.0) — the only published
+framework that explicitly addresses how AI-assisted systems must be built to
+survive technology, team, and ownership change across multi-decade lifetimes.
+
+WHAT MAKES THIS DIFFERENT
+-------------------------
+
+01 — Full-stack delivery, not just architecture documents
+     Mobile → API → RAG → governance. Complete products shipped, not slide decks.
+
+02 — Published governance methodology (SEA 1.0)
+     A 58-page whitepaper released April 2026 under CC BY 4.0. Not a tutorial —
+     a first-principles architectural framework written for enterprise architects,
+     CIOs, and CTOs.
+
+03 — Permission-aware retrieval by design
+     RLS-scoped vector retrieval — no chunk crosses a role boundary. Most RAG
+     freelancers skip this entirely.
+
+04 — Enterprise background, startup speed
+     TCS, Cognizant, Dell — governance instincts. MiVA — ability to ship
+     production AI as founding engineer.
+
+PROFILE
+-------
+Location      : Bengaluru, India
+Availability  : Open to contracts
+Markets       : Global — UK, EU, US, APAC, India
+Engagement    : Freelance · Contract · Retained
+Experience    : 15+ years
+Education     : MCA, University of Calicut
+                Executive Programme in Digital Marketing, University of Cambridge
+Published     : SEA 1.0 · AI-Native SDLC · Master Build Guide
+                Drift Audit Methodology · MiVA Case Study
+
+================================================================================
+WHAT I DELIVER FOR CLIENTS
+================================================================================
+
+1. ENTERPRISE RAG SYSTEMS
+   Permission-aware internal knowledge assistants with retrieval grounding,
+   audit logging, PII masking, and model-agnostic adapter interfaces.
+   Hallucination-controlled by design.
+   Stack: FastAPI · pgvector · Supabase RLS · Claude / GPT · LangChain
+
+2. AGENTIC WORKFLOW AUTOMATION
+   AI agents that read documents, decide, create Jira tickets, update CRM,
+   send Slack notifications, and trigger downstream workflows — end to end,
+   without human handoff.
+   Stack: LangGraph · Tool-calling agents · n8n · Webhooks
+
+3. AI MOBILE APPLICATIONS
+   Production Kotlin/Jetpack Compose apps with LLM integration, offline
+   support, state machines, enterprise authentication, and adaptive video
+   delivery.
+   Stack: Kotlin · Jetpack Compose · ExoPlayer · Supabase
+
+4. ENTERPRISE AI INTEGRATIONS
+   Connecting AI systems to Slack, Notion, Confluence, Jira, Salesforce,
+   SharePoint, and internal APIs with full RBAC, OAuth, SSO, and audit trails.
+   Stack: OAuth / SSO · RBAC · REST APIs · Webhooks
+
+5. AI GOVERNANCE & DRIFT CONTROL
+   Apply the 14-failure-mode SEA catalogue to diagnose existing AI systems.
+   Deliver SEAL-based remediation: audit logging, PII protection, model-swap-
+   ready adapters, and drift controls.
+   Stack: SEA 1.0 · SEAL v3 · Audit logs · ISO 27001
+
+6. MULTI-LLM CONTENT PIPELINES
+   Automated generation, review, and production workflows across Claude,
+   Gemini, and voice synthesis tooling. Reduces content production cycles
+   by approximately 60%.
+   Stack: Claude · Gemini · ElevenLabs · Agentic chains
+
+================================================================================
+SEALED ENTERPRISE ARCHITECTURE (SEA 1.0)
+================================================================================
+
+A 58-page foundational whitepaper defining a first-principles architectural
+philosophy for systems that must outlive their technologies, teams, and owners.
+Published April 2026. CC BY 4.0.
+
+"Every long-lived system must explicitly separate what is durable from what is
+transient, and must provide named mechanisms for the transient to change without
+threatening the durable."
+
+Key numbers:
+  58  Pages · Written for enterprise architects, CIOs, CTOs
+   7  Core Principles
+   5  Architectural Layers
+  14  Named Failure Modes
+  32  Gaps in current architectural practice identified
+
+SEVEN PRINCIPLES OF SEA
+-----------------------
+
+P1 — Contracts are durable; implementations are transient
+     Contracts live in their own files, language-agnostic, forever.
+     Implementations are free to change — new language, new framework,
+     new AI-assisted rewrite.
+
+P2 — Intent is captured, not just behaviour
+     Why a contract exists is as important as what it does. Intent documents
+     are append-only, preserving the full history of thought.
+
+P3 — Succession is designed, not assumed
+     Every sealed contract has a designated Owner. Succession is formal and
+     traceable — not political.
+
+P4 — Change is graduated, not binary
+     Proposed → reviewed → parallel-live → migrated → adopted or retired.
+     No silent merges, no shortcuts.
+
+P5 — Purpose-change has its own protocol
+     Material purpose shifts trigger a Major Version Bump — not a series of
+     silent feature additions.
+
+P6 — Portability is a first-class property
+     Every durable artefact is expressed in YAML/Markdown — portable across
+     organisations, stacks, and AI tools.
+
+P7 — AI-readability is structural
+     Contracts are designed to be read by future AI models without human
+     intermediation.
+
+The Seal Test: "If this element changes, does the system become a different
+system?" Yes → durable (sealed). No → transient.
+
+FIVE ARCHITECTURAL LAYERS
+--------------------------
+
+Layer 1 — Contract Definition
+  Declare what must persist. Sealed contract in YAML. Language-agnostic.
+
+Layer 2 — Intent Capture
+  Capture why it must persist. Intent document in Markdown. Append-only.
+
+Layer 3 — Verification
+  Prove implementation conforms. Per-stack verifier. Contract is the
+  architecture; verifier is enforcement.
+
+Layer 4 — Governance
+  Authorise change. Manage succession. Sealed Review Board. Quarterly cadence.
+
+Layer 5 — Evolution
+  Extend, major-version, or retire. Formal ceremony. Parallel-live replacement.
+
+14 NAMED FAILURE MODES — THE SEA DIAGNOSTIC CATALOGUE
+------------------------------------------------------
+
+FM-01  Ossification
+FM-02  Purpose Drift
+FM-03  Ghost Ownership
+FM-04  Interface Decay
+FM-05  Architectural Amnesia
+FM-06  Vendor Capture
+FM-07  Cognitive Debt
+FM-08  Inheritance Failure
+FM-09  Silent Contract Violation
+FM-10  Compliance Rot
+FM-11  Shadow Architecture
+FM-12  Model-Induced Drift
+FM-13  Plausibility Cascade
+FM-14  Decommissioning Paralysis
+
+Mapped to: TOGAF · Clean Architecture · DDD · ISO 27001 · NIST AI RMF
+           SOX · GxP · HIPAA
+
+================================================================================
+SEAL v3 — FIVE-RING GOVERNANCE FRAMEWORK
+================================================================================
+
+A production-validated implementation of SEA 1.0 principles. Deployed across
+the MiVA platform — 84 Kotlin source files, multiple closed beta releases.
+
+Authority Hierarchy:
+  DATABASE > DECISION LOG > SSOT > Code > Console > Docs
+
+Ring 1 — Self-Describing Headers
+  Every sealed file carries a SEALED header with freeze date and human-readable
+  enforcement warning. AI models and developers see the boundary immediately.
+
+Ring 2 — Physical sealed/ Directory
+  Bright-line boundary between frozen contracts and mutable extension layer.
+  19 sealed API functions in SealedApi.kt — eternal contracts, never modified,
+  never removed. New capability via named extensions in ExtendedApi only.
+
+Ring 3 — Git Pre-Commit Hook
+  Blocks any commit touching the sealed/ directory. Overrides require a
+  documented audit trail entry.
+
+Ring 4 — Build Hash Verification
+  SHA256 hashes of all sealed files checked at build time. Any modification
+  fails the build before reaching production.
+
+Ring 5 — Runtime Integrity
+  SealedContractVerifier runs at app startup, validating function count and
+  names against the embedded manifest. Drift surfaces immediately.
+
+================================================================================
+PRODUCT PORTFOLIO
+================================================================================
+
+1. MIVA ANDROID APP — Closed Beta, Play Store
+   Production Android application delivering CBSE Class 10 Science through
+   Instagram-style vertical video reels, powered by a multi-LLM content
+   pipeline. Built end-to-end as founding engineer.
+
+   Metrics: 84 Kotlin files · 85+ RLS policies · 7 DB schemas · 19 sealed APIs
+
+   Technical:
+   - Kotlin 2.0.21 / Jetpack Compose BOM 2024.11 · Min SDK 24 · Target SDK 35
+   - Supabase/PostgreSQL — 7 schemas (api, app, billing, content, control,
+     people, social)
+   - SEAL v3 five-ring governance · SealedContractTest CI
+   - Multi-LLM pipeline: Claude + Gemini + ElevenLabs voice synthesis
+   - ExoPlayer adaptive delivery · 300MB cache · 40MB/part cap · BunnyCDN
+   - Custom SRT subtitle overlay · session-level state machines
+   - OTP auth · single-device enforcement · Razorpay payments · Hilt DI
+
+2. SEALED ENTERPRISE ARCHITECTURE (SEA 1.0) — Whitepaper, CC BY 4.0
+   58-page foundational whitepaper. First-principles philosophy for systems
+   that must outlive their technologies, teams, and owners.
+   - 7 Principles · 5 Layers · 14 Failure Modes · 32 gaps in current practice
+   - Adoption pathway: TOGAF · ISO 27001 · NIST AI RMF · Clean Architecture
+   - MiVA platform cited as Annex A production validation case
+   - Part of 5-document methodology set · Published April 2026
+
+3. MIVA EDUCATION WEB PLATFORM — mivaedu.com (Live)
+   Free interactive AI learning for Indian students. Zero-dependency static
+   HTML, offline-capable, mobile-first at 360–420px, bilingual EN/Malayalam.
+   - CBSE Class 8 AI Module — 4 chapters, 5 labs, India AI Map, 741KB offline
+   - CBSE Class 8 CT Module — Decomposition Explorer, Binary Visualiser
+   - Kerala SCERT ICT Standard X — bilingual toggle, snap-scroll lab
+
+4. AI-NATIVE SDLC FRAMEWORK — github.com/suneesh-sidharth, CC BY 4.0
+   7-phase AI development lifecycle governance methodology:
+   FRAME → SEAL → SPEC → BUILD → VERIFY → RECONCILE → EVOLVE
+   - Companion: Master Build Guide · Drift Audit Methodology · MiVA Case Study
+   - Positioning: governance overlay complementing GitHub Spec Kit and AWS Kiro
+
+================================================================================
+TECHNICAL STACK
+================================================================================
+
+AI / GenAI
+  RAG Architectures · Agentic Pipelines · Claude (Anthropic) · OpenAI GPT-4.x
+  Gemini · LangChain · LangGraph · Semantic Retrieval · Prompt Engineering
+  pgvector · HITL Systems · AI Governance
+
+Backend & Databases
+  Python / FastAPI · Supabase / PostgreSQL · Node.js · REST API Design
+  Multi-schema RLS · MS SQL Server · ASP.NET MVC · WebSockets
+
+Mobile & Frontend
+  Kotlin / Jetpack Compose · React / TypeScript · ExoPlayer
+  JavaScript · HTML5 / CSS · Android SDK
+
+Cloud, DevOps & Governance
+  SEA 1.0 · SEAL v3 · Docker · GitHub Actions / CI/CD
+  AWS (Foundational) · Railway · BunnyCDN
+
+================================================================================
+EXPERIENCE
+================================================================================
+
+2023 – Present
+AI Product Architect & Engineering Lead · MiVA, Bengaluru
+Founding architect and primary engineering lead. Built MiVA end-to-end —
+backend, mobile, AI orchestration, governance, deployment. Authored SEA 1.0
+and AI-Native SDLC Framework. Invented SEAL v3.
+
+2021 – 2023
+Solution Delivery & Digital Transformation Lead · TCS, Bengaluru
+Managed end-to-end delivery of Global Digital Analytics & CX transformation
+programs. Built KPI frameworks and predictive analytics models at enterprise
+scale. Led cross-functional teams across engineering, analytics, and business.
+
+2014 – 2020
+Senior Analyst — Digital Banking & Customer Analytics · Cognizant, Bengaluru
+Led product strategy for digital banking platforms serving 10M+ users.
+Designed A/B frameworks delivering 25% conversion uplift. Built predictive
+models for risk assessment in regulated financial environments.
+
+2012 – 2014
+Senior Analyst — Enterprise Analytics · Dell Technologies, Bengaluru
+Implemented enterprise analytics instrumentation. Designed segmentation
+strategies and BI dashboards for executive decision-making at scale.
+
+2010 – 2012
+Software Engineer · Mphasis, Bengaluru
+Enterprise reporting and analytics applications for marketing and digital
+operations environments.
+
+2006 – 2007
+Programmer · National Informatics Centre (Govt. of India), Trivandrum
+Built examination management systems and official web portals for DHSE,
+Government of India.
+
+================================================================================
+PITCH DECK
+================================================================================
+
+SLIDE 01 — THE PROBLEM WITH ENTERPRISE AI TODAY
+------------------------------------------------
+
+What companies build:
+  - AI chatbots that work in demos but hallucinate in production
+  - RAG systems with no permission controls — every user sees every chunk
+  - AI pipelines that silently drift as models are updated
+  - Integrations that break when a vendor changes their API
+  - Systems nobody understands six months after the developer leaves
+
+Why it happens:
+  - AI freelancers optimise for demo quality, not production reliability
+  - No architectural separation between durable contracts and transient
+    implementation
+  - Permission enforcement at application layer — too late, too leaky
+  - No governance model — no audit trail, no drift detection, no succession
+  - Model vendor lock-in baked into the architecture from day one
+
+"The gap between how we build AI systems and how long they must live has
+widened to the point of structural failure." — SEA 1.0
+
+SLIDE 02 — WHAT GOVERNANCE-FIRST AI ARCHITECTURE LOOKS LIKE
+------------------------------------------------------------
+
+The architecture I deliver:
+  - RAG retrieval filtered by RLS at the database layer — permission leaks
+    are structurally impossible
+  - Model-agnostic adapter interfaces — swap Claude for GPT without touching
+    business logic
+  - SEAL v3 governance — five rings of drift protection across every release
+  - Audit logs at every layer — who asked what, what was retrieved, which
+    model responded
+  - Intent documents alongside every sealed contract — future maintainers
+    know the why, not just the what
+
+What this means for you:
+  - AI systems that behave the same in month 18 as in month 1
+  - No cross-role data exposure — compliant with SOC2, ISO 27001, GDPR
+  - Model upgrades that take days, not months
+  - Audit trail that satisfies enterprise security review
+  - Architecture that survives team turnover — documented, governed, durable
+
+SLIDE 03 — WHAT MAKES THIS DIFFERENT
+-------------------------------------
+
+Most AI freelancers:
+  - Wire LangChain + OpenAI + a vector DB and ship a demo
+  - No governance model — no audit, no drift control, no succession
+  - Permission enforcement at app layer — bypassed trivially
+  - Single-model dependency — architecture breaks on model change
+  - No published methodology — cannot articulate why decisions were made
+
+What I bring:
+  - Published SEA 1.0 — 58-page architectural framework, CC BY 4.0, April 2026
+  - SEAL v3 — production-validated five-ring drift governance
+  - RLS-scoped pgvector retrieval — permission enforcement at database layer
+  - Model-agnostic adapter pattern — vendor-neutral by design
+  - 15+ years enterprise background — TCS, Cognizant, Dell
+
+The combination of published methodology + production validation + full-stack
+delivery is, to my knowledge, unique in the current freelance AI market.
+
+SLIDE 04 — HOW WE WORK TOGETHER
+--------------------------------
+
+Project Engagement
+  Scoped deliverable with defined start and end. Architecture design, RAG
+  system build, mobile app, governance audit. Milestone-based with review gates.
+
+Retained Advisory
+  Ongoing architecture oversight. Monthly reviews, drift audits, governance
+  design. Minimum 3-month engagement.
+
+Contract Embedding
+  Embedded with your engineering team for a defined period. Full-time or
+  part-time. Ideal for enterprises building internal AI capability.
+
+All engagements: remote-first · async-friendly · documentation-first
+Deliverables include architecture decisions, not just code.
+
+SLIDE 05 — LET'S BUILD SOMETHING THAT LASTS
+--------------------------------------------
+
+Good fit if you need:
+  - An internal AI knowledge system that actually respects data permissions
+  - A RAG pipeline that won't leak across roles
+  - An AI mobile application built to Play Store production standards
+  - An architecture that survives model upgrades, team changes, and regulatory
+    scrutiny
+  - A governance framework for an AI system you're already building
+
+Next steps:
+  - Email with a brief description of your project and timeline
+  - 30-minute architecture conversation — no commitment required
+  - Scoped proposal within 48 hours of conversation
+  - Milestone 1 typically deliverable within 2 weeks of agreement
+
+================================================================================
+CONTACT & AVAILABILITY
+================================================================================
+
+Email     : suneesh.sidharthan80@gmail.com
+LinkedIn  : linkedin.com/in/suneesh-sidharthan-773b85147
+GitHub    : github.com/suneesh-sidharth
+Platform  : mivaedu.com
+
+Markets   : UK · EU · US · Singapore · Middle East · India · APAC
+
+Engagement types:
+  - Remote freelance contracts
+  - Enterprise AI consulting
+  - Retained architecture advisory
+  - Contract embedding with teams
+  - AI governance audit & remediation
+  - Long-term strategic partnerships
+
+================================================================================
+Suneesh Sidharthan · Enterprise AI Systems Architect
+Author of SEA 1.0 · Creator of SEAL v3
+suneesh.sidharthan80@gmail.com · mivaedu.com
+================================================================================
